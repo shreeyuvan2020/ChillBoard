@@ -382,7 +382,7 @@
 		(embedded_fonts no)
 		(model "/Users/yuva/Downloads/OLED_0.91_128x32.stp"
 			(offset
-				(xyz 18.7 -6 0)
+				(xyz 18.9 -6 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1051,6 +1051,17 @@
 			(uuid "137ed0e4-3b83-427d-affa-42d514148d97")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/BS412.3dshapes/SENSOR-TH_BS412.step"
+			(offset
+				(xyz 0 2.55 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -45)
+			)
+		)
 	)
 	(footprint "KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty-master:SSD1306-0.91-OLED-4pin-128x32"
 		(layer "F.Cu")
@@ -1306,6 +1317,209 @@
 			(uuid "4a9ffa7a-65cb-4b0e-a659-fd29e1f4f5df")
 		)
 		(embedded_fonts no)
+		(model "/Users/yuva/Downloads/OLED_0.91_128x32.stp"
+			(offset
+				(xyz 18.8 -6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
+	)
+	(footprint "Panelization.pretty-master:mouse-bite-3mm-slot"
+		(layer "F.Cu")
+		(uuid "4d674e7f-6306-41c8-b174-ac3ce69e272b")
+		(at 155.062454 67.508 90)
+		(property "Reference" "BO3"
+			(at 0 -2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03334fa0-09a1-4e9a-83f7-fedf20884244")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Value" "break off"
+			(at 0 2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a34d9b99-a24d-4567-9ed6-a012bdb3ef76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "523c6b73-3ac9-4a1f-bb09-b9790220d2ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76aa925d-2c2d-4987-a630-0250a5fd5545")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a0502b52-57f5-4900-9dbf-2b8e24dc2d26")
+		(sheetname "/")
+		(sheetfile "Chillboard.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -3 -1.5)
+			(mid -1.5 0)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b053055a-10b0-4e7e-b05c-715e9f88e03c")
+		)
+		(fp_arc
+			(start 3 1.5)
+			(mid 1.5 0)
+			(end 3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a21ec64-bdd3-429d-b2ca-095faab3fc76")
+		)
+		(fp_circle
+			(center 3 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "058eee72-ed83-4e39-8629-31b5f50ba93a")
+		)
+		(fp_circle
+			(center -3 0)
+			(end -3 -0.06)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "d1c174f5-2f25-4569-9773-eaefeb6c5606")
+		)
+		(fp_line
+			(start 3 0)
+			(end 3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "bf97ff6c-8eb4-4e84-ae0c-6901364c55aa")
+		)
+		(fp_line
+			(start -3 0)
+			(end -3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "9b4e2d61-0dc7-48b2-b412-5b23fc334377")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a16e2606-ad5d-4cfe-bc23-6f896e27216b")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e7eef3ab-65fb-47cc-a53d-60ed913a67bb")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.762 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6e76c0aa-dd20-4632-84e3-e110f4d9aff5")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6b4581b6-fa30-456b-90bc-a821db76c18f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65d3c631-c9d1-4eeb-babc-5a87709cd97e")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "55dfa671-324d-44e3-a0e5-01f2655395c3")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b9a3881d-3536-43f3-9a70-bf5041fd95d0")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "273111fb-6bdf-4548-8ac5-fdbec8e920d2")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d46b218a-feaf-4037-9c6f-2c30122301d8")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e2c9198f-a05f-4988-9be7-1a8ba6a5ff87")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
 		(layer "F.Cu")
@@ -1417,6 +1631,198 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Panelization.pretty-master:mouse-bite-3mm-slot"
+		(layer "F.Cu")
+		(uuid "608edf15-ca1e-4b6c-beb9-b23d8c54bb58")
+		(at 155.054086 77.452 -90)
+		(property "Reference" "BO1"
+			(at 0 -2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62d10d4c-5cea-4936-856f-a5904e2855a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Value" "break off"
+			(at 0 2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2e38d9b8-cba7-46ca-a788-0c9a01281776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4323ac7-c6bd-41f7-84fd-47dfcf55b722")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c45d653-ee6b-4c4b-a08b-760421d9eb3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ad79399c-4084-488d-a7a5-3e3390dcaad5")
+		(sheetname "/")
+		(sheetfile "Chillboard.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start 3 1.5)
+			(mid 1.5 0)
+			(end 3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b621c470-6d71-4155-8eee-f7f43b5973ba")
+		)
+		(fp_arc
+			(start -3 -1.5)
+			(mid -1.5 0)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1841395-2436-4284-8010-721feaefd540")
+		)
+		(fp_circle
+			(center -3 0)
+			(end -3 -0.06)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "36725565-62e0-4451-ba66-a2c8cd426b96")
+		)
+		(fp_circle
+			(center 3 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "b57811aa-d391-4fb0-8f32-6610cbc83d1a")
+		)
+		(fp_line
+			(start -3 0)
+			(end -3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "2074361f-1a26-45b7-9331-462dd60c8c2d")
+		)
+		(fp_line
+			(start 3 0)
+			(end 3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "42b50925-9078-40c8-8eaf-06653c1c3b2d")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 -1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d26a9891-16b2-4645-87be-c4934bdb10d9")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c9e7d77f-5c08-436b-bd7d-c195dccc599a")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.762 1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "130d153c-48fd-4ac2-aa83-b3fd72b07ddf")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2fed08f2-eb79-49e6-921c-a5c835f179bf")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ea985c74-1501-4f67-b1e4-61e8f290e7f3")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7fd05209-bc05-4a61-9581-1ebd20befbfe")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "28fa541d-64e8-44dc-abd8-7f76ba30f07d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5f8af6d0-aaa6-4180-a68b-894ff2212280")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 -1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "26dd50ac-be21-4a8d-ab0d-2dfbb754a605")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 1.5 270)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eb1d8f4c-44d1-4f34-99f3-9c38ddcb09de")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_2.1mm"
 		(layer "F.Cu")
 		(uuid "62cfe933-cadb-4384-be81-6b9da7882a1c")
@@ -1524,6 +1930,198 @@
 			(drill 2.1)
 			(layers "*.Cu" "*.Mask")
 			(uuid "85fd2897-a0d1-41cf-8f69-c853f21d4cb8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Panelization.pretty-master:mouse-bite-3mm-slot"
+		(layer "F.Cu")
+		(uuid "72b1f230-ce56-4e6f-9473-2ae445fc0255")
+		(at 155.071638 57.6 90)
+		(property "Reference" "BO2"
+			(at 0 -2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ed6e483e-9f41-4347-820a-cc1b3521fb76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Value" "break off"
+			(at 0 2.5 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c04e0619-07e7-47b3-bbee-8c1e84dd9f99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da612ea6-9811-4d3f-bd4c-c102a9c2bbf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5516180-3c4e-48d3-9be9-b53a1f39b1ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c7f51799-a388-470e-bca1-8cb257255f2d")
+		(sheetname "/")
+		(sheetfile "Chillboard.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -3 -1.5)
+			(mid -1.5 0)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "49390e67-35d9-4ed6-afb0-968da6c527f1")
+		)
+		(fp_arc
+			(start 3 1.5)
+			(mid 1.5 0)
+			(end 3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdea3304-227e-46b6-aa1f-262fc5c2a08c")
+		)
+		(fp_circle
+			(center 3 0)
+			(end 3.06 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "607dddef-3c30-423c-8c6b-f76f0c9d06fe")
+		)
+		(fp_circle
+			(center -3 0)
+			(end -3 -0.06)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "66c36983-9f90-42f7-95ec-cba8382b34d2")
+		)
+		(fp_line
+			(start 3 0)
+			(end 3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "36ae8df9-73e7-450c-9a63-6a873200f6be")
+		)
+		(fp_line
+			(start -3 0)
+			(end -3 0)
+			(stroke
+				(width 3)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "3d7f090b-f5cf-4eb0-be17-eeee82525d1b")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6632c6e7-fe90-4f66-9f24-2f15482c98bc")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.512 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0f40befe-90b2-496f-bc0c-35579837b0fa")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.762 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6f1bdb4b-3d2a-4eae-85dd-54147e274619")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "60bd75cb-cc49-4a89-865d-623b23a4a1c1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "80e280d5-6657-4b58-b136-5a04640a2308")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1ec2f743-b244-4733-b95d-f7ad4da5b298")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d641a960-830c-4cbc-a652-0a24cd3260a6")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc675f5b-b3bc-44df-bb58-2ec11fc53078")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 -1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65919f72-c518-4bf7-967d-bf13ad7a258d")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.524 1.5 90)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3c7990cc-2937-4d03-bdeb-470c7018e66a")
 		)
 		(embedded_fonts no)
 	)
@@ -2156,6 +2754,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/yuva/Downloads/Rotary Encoder.step"
+			(offset
+				(xyz 1.4 3.4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "BS412:BS412"
 		(layer "F.Cu")
@@ -2444,6 +3053,17 @@
 			(uuid "ae04a68e-33f3-4618-ab36-7f5fa3e96043")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/BS412.3dshapes/SENSOR-TH_BS412.step"
+			(offset
+				(xyz 0 2.6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -45)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.1mm"
 		(layer "F.Cu")
@@ -3353,7 +3973,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm.step"
 			(offset
-				(xyz 1.3 3.4 0)
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/yuva/Downloads/Rotary Encoder.step"
+			(offset
+				(xyz 1.5 3.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4155,6 +4786,17 @@
 			(uuid "46a3d214-4122-4535-b7a7-6a6c9ebbb630")
 		)
 		(embedded_fonts no)
+		(model "/Users/yuva/Downloads/Seeed Studio XIAO nRF52840.step"
+			(offset
+				(xyz 10.15 -16.3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "modified-xiao:modified-XIAO-nRF52840-SMD"
 		(layer "F.Cu")
@@ -4686,7 +5328,7 @@
 		(embedded_fonts no)
 		(model "/Users/yuva/Downloads/Seeed Studio XIAO nRF52840.step"
 			(offset
-				(xyz 10 -16.35 0)
+				(xyz 10.15 -16.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5532,7 +6174,7 @@
 		)
 		(fp_arc
 			(start -0.794452 -1.499999)
-			(mid -0.925124 -1.517375)
+			(mid -0.925123 -1.517375)
 			(end -1.046711 -1.568298)
 			(stroke
 				(width 0.1)
@@ -5565,7 +6207,7 @@
 		)
 		(fp_arc
 			(start 1.04671 -1.568298)
-			(mid 0.925121 -1.517378)
+			(mid 0.925121 -1.517377)
 			(end 0.794452 -1.499999)
 			(stroke
 				(width 0.1)
@@ -8047,7 +8689,7 @@
 		)
 		(fp_arc
 			(start 0.295999 -3.649999)
-			(mid 1.573272 -3.192234)
+			(mid 1.573272 -3.192235)
 			(end 2.451444 -2.15793)
 			(stroke
 				(width 0.05)
@@ -8186,7 +8828,7 @@
 			(uuid "0261dad4-984d-4d15-86a3-f75ba575458d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -8206,17 +8848,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -9145,7 +9776,7 @@
 			(uuid "5a1eaf0b-0d98-44c2-9f7d-994ed01e066b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -9165,17 +9796,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -10579,7 +11199,7 @@
 			(uuid "ad175e75-8e21-4af2-89c5-3788f1d7fff9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -10599,17 +11219,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -12925,7 +13534,7 @@
 			(uuid "0d7a9a45-8d8b-4b57-aff9-ee258be4d3c7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -12945,17 +13554,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -14043,7 +14641,7 @@
 			(uuid "21ca0404-f08b-4e4b-8524-fcde6d47c187")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -14063,17 +14661,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -14844,7 +15431,7 @@
 			(uuid "6cda7d1d-0cf6-4018-bd19-5be835b3377d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -14864,17 +15451,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -15645,7 +16221,7 @@
 			(uuid "a2287ce8-03d3-4f0c-bdf1-84781e614c5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -15665,17 +16241,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -18360,7 +18925,7 @@
 			(uuid "4ee2b45b-4506-4169-b320-3c892165a0b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -18380,17 +18945,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -19161,7 +19715,7 @@
 			(uuid "957b31d9-3dec-4c44-ac48-eadeccb60d18")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -19181,17 +19735,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -22048,7 +22591,7 @@
 			(uuid "d830c019-0074-4e84-b380-3b5b17afa3ff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -22068,17 +22611,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -24675,7 +25207,7 @@
 			(uuid "363db65a-0c58-4b4b-aeff-49be6a380ac1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -24695,17 +25227,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -25860,7 +26381,7 @@
 		(fp_arc
 			(start 1.699999 -0.702842)
 			(mid 1.712536 -0.814064)
-			(end 1.749484 -0.919721)
+			(end 1.749484 -0.91972)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -25893,7 +26414,7 @@
 		(fp_arc
 			(start 1.046711 -1.568296)
 			(mid 1.638068 -1.504033)
-			(end 1.749484 -0.919721)
+			(end 1.749484 -0.91972)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -28268,7 +28789,7 @@
 			(uuid "1c67ea31-6c34-4f96-9ebd-227e84a110b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -28288,17 +28809,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -29227,7 +29737,7 @@
 			(uuid "4f135966-020c-4bdd-925b-3a35941a2fec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -29247,17 +29757,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -30674,18 +31173,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -0 180)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1.5x1.STEP"
-			(offset
-				(xyz 0 0 -5.8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -0)
+				(xyz 90 0 180)
 			)
 		)
 		(model "/Users/yuva/Downloads/SW_Kailh_Choc_V1.stp"
@@ -31625,7 +32113,7 @@
 			(uuid "96aad1d2-314a-466c-b52f-8370b6c44db7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -31645,17 +32133,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -32584,7 +33061,7 @@
 			(uuid "4e17f77d-2d33-4ab5-8475-05827df5a6f9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -32604,17 +33081,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -34133,7 +34599,7 @@
 			(uuid "13ca3b3e-3e7a-4b67-9fcf-1b2fdb6ca2ab")
 		)
 		(fp_line
-			(start 3.449998 -6.125)
+			(start 3.449999 -6.125)
 			(end 6.45 -6.125)
 			(stroke
 				(width 0.05)
@@ -34275,8 +34741,8 @@
 			(uuid "52f8a07c-79d8-417b-9ec3-0aa74f13f815")
 		)
 		(fp_arc
-			(start 3.449998 -6.125)
-			(mid 2.742893 -6.417894)
+			(start 3.449999 -6.125)
+			(mid 2.742893 -6.417893)
 			(end 2.45 -7.125)
 			(stroke
 				(width 0.05)
@@ -34582,7 +35048,7 @@
 			(uuid "3e87663c-ca0f-428a-827a-a1d3415f0ad1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -34602,17 +35068,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -35384,7 +35839,7 @@
 			(uuid "e956b244-a1ab-4e8f-a5f1-ea8f0886dea9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -35404,17 +35859,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -36185,7 +36629,7 @@
 			(uuid "43853445-0616-4c50-8320-34272f896ae9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -36205,17 +36649,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -37620,7 +38053,7 @@
 			(uuid "3297f65a-5e67-4d6b-8533-a781c78275bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -37640,17 +38073,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -38738,7 +39160,7 @@
 			(uuid "35970cbf-9691-45d7-9b97-67f65fc0c7ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -38758,17 +39180,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -40417,7 +40828,7 @@
 			(uuid "b8701e02-f2b6-483d-ab97-59ea213b184f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -40437,17 +40848,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -42252,7 +42652,7 @@
 			(uuid "5a38ef35-a8db-4384-9202-938412e2cf3c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -42272,17 +42672,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -45123,7 +45512,7 @@
 			(uuid "39c6dbdc-2c71-4f6b-b0c0-70d94526a0be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -45143,17 +45532,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -47118,7 +47496,7 @@
 			(uuid "f1c7d0fb-cfdc-4813-9914-b438256818cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -47138,17 +47516,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -47919,7 +48286,7 @@
 			(uuid "e3cec2d2-7681-42ea-890b-c3babaa81c45")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -47939,17 +48306,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -48720,7 +49076,7 @@
 			(uuid "e1821009-4b64-4b41-bf59-b9c9e1dbfaef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -48740,17 +49096,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -50240,7 +50585,7 @@
 			(uuid "326fea52-91a1-46c4-add9-bace0a0ca385")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -50260,17 +50605,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -51201,7 +51535,7 @@
 			(uuid "cb6735cd-7068-4f3e-8f1a-35e9bb778c34")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -51221,17 +51555,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -52002,7 +52325,7 @@
 			(uuid "81146543-d306-403a-91ad-9cdacd174cc6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -52022,17 +52345,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -54944,7 +55256,7 @@
 			(uuid "4df807da-6610-4885-856f-c8e3c0afd010")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -54964,17 +55276,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -57426,7 +57727,7 @@
 			(uuid "29058578-986e-4d61-9f8b-3c166c91f5be")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -57446,17 +57747,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -58067,7 +58357,7 @@
 		(fp_arc
 			(start 1.046711 -1.568296)
 			(mid 1.638068 -1.504033)
-			(end 1.749484 -0.919721)
+			(end 1.749484 -0.91972)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -58100,7 +58390,7 @@
 		(fp_arc
 			(start 1.699999 -0.702842)
 			(mid 1.712536 -0.814064)
-			(end 1.749484 -0.919721)
+			(end 1.749484 -0.91972)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -59349,7 +59639,7 @@
 			(uuid "3830e68c-3abd-44e9-9b3e-366201792794")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -59369,17 +59659,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -60783,7 +61062,7 @@
 			(uuid "79b3f5dd-2995-4acd-8431-55342168ed1d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -60803,17 +61082,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -61584,7 +61852,7 @@
 			(uuid "cc9de1cf-85bc-4188-b220-383c4c32a54f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -61604,17 +61872,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -62385,7 +62642,7 @@
 			(uuid "42579552-9f4c-454b-8cc0-984ec4e4de28")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -62405,17 +62662,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -64068,7 +64314,7 @@
 			(uuid "2b8d1ace-9e6c-4960-8855-cfaa4f59b038")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -64076,29 +64322,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -0 180)
+				(xyz 90 0 180)
 			)
 		)
 		(model "/Users/yuva/Downloads/SW_Kailh_Choc_V1.stp"
 			(offset
-				(xyz 0 0 -0.7)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.5.STEP"
-			(offset
-				(xyz 0 0 -5.8)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 -0 180)
+				(xyz -0 -180 -180)
 			)
 		)
 	)
@@ -64869,7 +65104,7 @@
 			(uuid "14d6b8e9-092e-45a5-8978-62283735276e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -64889,17 +65124,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -67244,7 +67468,7 @@
 			(uuid "35362e7c-86c8-48f5-bb00-3c9d5a9a8251")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -67264,17 +67488,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -68203,7 +68416,7 @@
 			(uuid "3a67bfac-1fed-4d18-b66a-3dba932933c0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -68223,17 +68436,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -69004,7 +69206,7 @@
 			(uuid "1a18549d-f878-4678-adda-1b9c0ba35ef1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -69024,17 +69226,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -76862,7 +77053,7 @@
 			(uuid "a00dba4f-ecb3-4786-a82b-b872448d9700")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 			(offset
 				(xyz -5 -3.75 0.12)
 			)
@@ -76882,17 +77073,6 @@
 			)
 			(rotate
 				(xyz -180 -0 -0)
-			)
-		)
-		(model "/Users/yuva/Downloads/kailh-low-profile-keycaps-1/KailhLP Choc Keycap STEP/1x1.STEP"
-			(offset
-				(xyz 0 0 -6.7)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -180 -180)
 			)
 		)
 	)
@@ -77317,14 +77497,46 @@
 		(uuid "bd221202-3e78-4779-81cf-3ad12d4b8f56")
 	)
 	(gr_line
-		(start 153.541638 54.58)
-		(end 153.53 80.46)
+		(start 153.530822 64.5)
+		(end 153.551638 60.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b0af61ae-f94a-4f0a-bd57-e23a98dd9993")
+		(uuid "3b7d5664-9537-47bc-b4ea-9abdb81c6923")
+	)
+	(gr_line
+		(start 153.530822 74.44)
+		(end 153.532454 70.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a2cc3181-f0c6-4c98-b682-c58775a34326")
+	)
+	(gr_arc
+		(start 153.532454 70.52)
+		(mid 155.06327 68.989184)
+		(end 156.594086 70.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dcb31b9b-5359-47a0-8f94-3775323e31fc")
+	)
+	(gr_arc
+		(start 153.532454 80.46)
+		(mid 155.06327 78.929184)
+		(end 156.594086 80.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c0464961-c4ff-4130-9e84-49bf1eb1d108")
 	)
 	(gr_line
 		(start 153.541638 54.58)
@@ -77336,15 +77548,58 @@
 		(layer "Edge.Cuts")
 		(uuid "b8d4c46b-bc4f-44c9-8285-b96d33f5f293")
 	)
-	(gr_line
-		(start 156.594086 80.46)
-		(end 156.60327 54.58)
+	(gr_arc
+		(start 153.551638 60.6)
+		(mid 155.071638 59.08)
+		(end 156.591638 60.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "34e55031-7a2a-4865-91ec-f532fe090475")
+		(uuid "a06eee2e-a8f9-4434-886a-b92eb2f8c6d8")
+	)
+	(gr_arc
+		(start 156.592454 64.5)
+		(mid 155.061638 66.030816)
+		(end 153.530822 64.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "62875cb2-e060-47e7-954d-4af2e12e2abd")
+	)
+	(gr_line
+		(start 156.592454 64.5)
+		(end 156.591638 60.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff621903-8e46-435f-a280-9611d9377ada")
+	)
+	(gr_arc
+		(start 156.592454 74.44)
+		(mid 155.061638 75.970816)
+		(end 153.530822 74.44)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92d87211-7b0f-4ab1-afae-f87b9daf0972")
+	)
+	(gr_line
+		(start 156.594086 70.52)
+		(end 156.592454 74.44)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c73f725a-abe9-44b1-ab44-7fe37800a9ca")
 	)
 	(gr_arc
 		(start 156.600167 53.939833)
@@ -77356,6 +77611,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d798eda2-ab21-4978-bccd-363b3ad84cc9")
+	)
+	(gr_arc
+		(start 156.60327 54.58)
+		(mid 155.072454 56.110816)
+		(end 153.541638 54.58)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "904215b9-b549-4f28-95a5-d9930eec4445")
 	)
 	(gr_line
 		(start 156.60327 54.58)
@@ -96899,6 +97165,10 @@
 			"f8d12620-b928-4232-a45c-af3eb6ad18eb" "fac60d9b-8b17-4d6a-a650-9a34dc0983a3"
 			"ff2238e9-5b5c-41c6-b064-5edb00adcf29" "ffafa9af-6bf8-4b44-a901-2a18ebad1ca0"
 		)
+	)
+	(group ""
+		(uuid "cb523656-aba5-47cb-93f7-05486ea06ac4")
+		(members "62875cb2-e060-47e7-954d-4af2e12e2abd" "dcb31b9b-5359-47a0-8f94-3775323e31fc")
 	)
 	(embedded_fonts no)
 )
