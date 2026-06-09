@@ -1,5 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "modified-xiao") (type "KiCad") (uri "${KIPRJMOD}/modified-xiao.pretty") (options "") (descr ""))
-	(lib (name "mousebite") (type "KiCad") (uri "/Users/yuva/Developer/mousebite.pretty") (options "") (descr ""))
-)
