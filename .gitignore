@@ -35,13 +35,19 @@ sym-lib-table
 *.stp
 *.wrl
 
+# Build & log files
 *.log
 build/
 *.o
 *.a
 *.so
 
+# Temp files
 .~*
 *~
 
 replicate_layout.log
+
+# Except assets folder - keep project images tracked
+!assets/
+!assets/**
