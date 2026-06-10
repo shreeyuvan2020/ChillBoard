@@ -38,7 +38,7 @@
  ### Full Assembly
  ![Assembly](assets/Assembly.png)
 ## My Zine
-<img width="540" height="828" alt="MITO-2" src="https://github.com/user-attachments/assets/c6c1e4e2-3f3e-4da0-af18-8a0861c936c1" />
+![zine](assets/zine.png)
 ## Assembly Instructions
  - First, obviously fabricate the PCB and solder everything.
  - Then, go into the Firmware folder, open the submodule, and open Github Actions
