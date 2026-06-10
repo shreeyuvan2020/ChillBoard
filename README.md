@@ -11,6 +11,10 @@
  - Rotary encoder for volume control
  - PIR sensor for energy conservation
  - Ortholinear layout with a thumb cluster to reduce strain
+## Reasons I built this
+ - Right now, I type on a laptop keyboard and am scared that I might get carpal tunnel.
+ - The switches on my other keyboard are very loud, and are not the best for me. Hotswap sockets let me customize the feel.
+ - The keyboard doesn't have backlighting.
 ## Schematic
  For the schematic, I used hierarchial sheets to organize everything. There are 2 hierarchial sheets for each side of the pcb, and a hierarchial sheet in each one of those for the large neopixel matrix. 
 
