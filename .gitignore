@@ -31,8 +31,6 @@ sym-lib-table
 *.png
 *.jpg
 *.jpeg
-*.step
-*.stp
 *.wrl
 
 # Build & log files
