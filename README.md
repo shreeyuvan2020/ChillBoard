@@ -39,7 +39,18 @@
  ![Assembly](assets/Assembly.png)
 ## My Zine
 <img width="540" height="828" alt="MITO-2" src="https://github.com/user-attachments/assets/c6c1e4e2-3f3e-4da0-af18-8a0861c936c1" />
-
+## Assembly Instructions
+ - First, obviously fabricate the PCB and solder everything.
+ - Then, go into the Firmware folder, open the submodule, and open Github Actions
+ - Click the latest build and download the firmware artifact.
+ - Then, plug in a USB cable into the Xiao and hit the reset button 2 times
+ - A drive should show up, drop the first file that says settings-reset etc.
+ - The drive should disappear, wait about 5 seconds and then do the same thing again
+ - Then drop the file that starts with custom21
+ - Now disconnect the cable, and it should show up as a BLE device
+ - Connect to it then put the PCB into the bottom case
+ - Then put the plate on top of it and place the keycaps on top of that to secure it.
+ - You're good to go!
 ## Credits
  This project is inspired by the Corneucopia project by @DynamicWhiteHat.
  It used Autodesk Fusion for CAD, Kicad 10 for the PCB, and is sponsored by Hack Club Fallout! Thanks to Hack Club for sponsoring this!
