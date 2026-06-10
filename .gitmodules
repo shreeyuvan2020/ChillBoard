@@ -1,0 +1,3 @@
+[submodule "Firmware/zmk-config"]
+	path = Firmware/zmk-config
+	url = https://github.com/shreeyuvan2020/zmk-config.git
