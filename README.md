@@ -11,6 +11,10 @@
  - Rotary encoder for volume control
  - PIR sensor for energy conservation
  - Ortholinear layout with a thumb cluster to reduce strain
+## Reasons I built this
+ - Right now, I type on a laptop keyboard and am scared that I might get carpal tunnel.
+ - The switches on my other keyboard are very loud, and are not the best for me. Hotswap sockets let me customize the feel.
+ - The keyboard doesn't have backlighting.
 ## Schematic
  For the schematic, I used hierarchial sheets to organize everything. There are 2 hierarchial sheets for each side of the pcb, and a hierarchial sheet in each one of those for the large neopixel matrix. 
 
@@ -33,7 +37,9 @@
  ![Plate](assets/plate.png)
  ### Full Assembly
  ![Assembly](assets/Assembly.png)
- 
+## My Zine
+<img width="540" height="828" alt="MITO-2" src="https://github.com/user-attachments/assets/c6c1e4e2-3f3e-4da0-af18-8a0861c936c1" />
+
 ## Credits
  This project is inspired by the Corneucopia project by @DynamicWhiteHat.
  It used Autodesk Fusion for CAD, Kicad 10 for the PCB, and is sponsored by Hack Club Fallout! Thanks to Hack Club for sponsoring this!
