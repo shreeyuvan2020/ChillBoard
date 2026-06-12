@@ -38,7 +38,7 @@
  ### Full Assembly
  ![Assembly](assets/Assembly.png)
 ## My Zine
-![zine](zine.pdf)
+![zine](ChillBoard/zine.pdf)
 ## Assembly Instructions
  - First, obviously fabricate the PCB and solder everything.
  - Then, go into the Firmware folder, open the submodule, and open Github Actions
