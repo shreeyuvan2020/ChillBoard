@@ -42,6 +42,10 @@
 Zine is at zine.pdf too
 ## Assembly Instructions
  - First, obviously fabricate the PCB and solder everything.
+ - Next is printing the plate and case.
+ - Print with very fine settings as it friction fits, I printed with 0.08 mm High Quality @BBL on my Bambu Labs A1 Mini.
+ - Be careful when removing the plate and bottom from the print bed as it could break
+ - Obviously print two of each, two plates and two bottom cases
  - Then, go into the Firmware folder, open the submodule, and open Github Actions
  - Click the latest build and download the firmware artifact.
  - Then, plug in a USB cable into the Xiao and hit the reset button 2 times
