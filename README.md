@@ -37,6 +37,9 @@
  ![Plate](assets/plate.png)
  ### Full Assembly
  ![Assembly](assets/Assembly.png)
+ ### Pictures of it Assembled
+ ![Assembly](assets/built.png)
+ ![Assembly](assets/built2.png)
 ## My Zine
 ![zine](assets/zine.png)
 Zine is at zine.pdf too
