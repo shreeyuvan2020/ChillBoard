@@ -38,8 +38,8 @@
  ### Full Assembly
  ![Assembly](assets/Assembly.png)
  ### Pictures of it Assembled
- ![Assembly](assets/IMG_2330.HEIC)
- ![Assembly](assets/IMG_2331.HEIC)
+ ![Assembly](assets/irl_top_view.png)
+ ![Assembly](assets/irl_side_view.png)
 ## My Zine
 ![zine](assets/zine.png)
 Zine is at zine.pdf too
